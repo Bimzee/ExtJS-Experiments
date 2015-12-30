@@ -10,7 +10,7 @@ Ext.define('SampleApp.model.WellList', {
 //    ]
     fields: ['ID','OP','Partner','County','State','Prospect Name',
     'Area','New?','Dev/Expl','Accounting','Well Name','CR WI',
-    'SPUD','RIG','COMP','Perf/Frac','Frac','COMP',
+    {name:'SPUD', mapping: 'SPUD', type:'date',dateFormat: 'm/d/y'},'RIG','COMP','Perf/Frac','Frac','COMP',
     'Rod','Drill Cost','Comp Cost','Flow','Results','Oil/Gas',
     'TD (feet)','Comments','90-DAYS FM PRODUCTION','drill','comp']
 });
