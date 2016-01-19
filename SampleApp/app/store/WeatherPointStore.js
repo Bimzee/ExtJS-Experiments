@@ -16,6 +16,9 @@
 
 Ext.define('SampleApp.store.WeatherPointStore',{
     extend: 'Ext.data.Store',
+    //Model, where the data specification done, need to be assigned here.
+    //The data should hold with the data model specification.
+    //This step i think is optional. Need to confirm.
     model: 'SampleApp.model.WeatherPoint',
     data: [
          { AFEType: 'Drilling Development',data1: 68.3 },

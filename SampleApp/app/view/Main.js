@@ -9,7 +9,12 @@ Ext.define('SampleApp.view.Main', {
         'SampleApp.view.GridWellList',
         'SampleApp.view.AFETGrid',
         'SampleApp.view.Accordion.AccordionPanel1',
-        'SampleApp.view.Accordion.AccordionPanel2'
+        'SampleApp.view.Accordion.AccordionPanel2',
+        "SampleApp.view.Schedule.Navigation",
+        "SampleApp.view.Schedule.ResourceSchedule",
+        "SampleApp.view.Schedule.Settings",
+        
+//        'SampleApp.view.BryndumGantt'
     ],
     xtype: 'app-main',
     layout: {
@@ -28,7 +33,7 @@ Ext.define('SampleApp.view.Main', {
                 {
                     xtype: 'pnlAccordion1',
                     itemId: 'accrd1'
-                }, 
+                },
                 {
                     xtype: 'pnlAccordion2',
                     itemId: 'accrd2'
@@ -37,7 +42,8 @@ Ext.define('SampleApp.view.Main', {
             layout: 'accordion',
             titleCollapse: false,
             animate: true,
-            activeOnTop: true
+            activeOnTop: true,
+            hidden:true,
         },
         //Panel 1 for Grid and Chart of AFET data
         {
@@ -45,6 +51,7 @@ Ext.define('SampleApp.view.Main', {
             xtype: 'panel',
             title: 'AFEType',
             itemId: 'testPanel',
+            hidden:true,
             animCollapse: true,
             height: 250,
             margin: 5,
@@ -102,8 +109,43 @@ Ext.define('SampleApp.view.Main', {
         {
             xtype: 'gridWellList',
             flex: 3,
-            margin: 5
-        }
-      
-    ]
+            margin: 5,
+            hidden:true
+        },
+        //GanttChart Example
+        {
+            xtype: 'Scheduler',startDate : new Date(2014, 0, 1), endDate : new Date(2015, 11, 1),
+//            xtype: 'Scheduler',startDate : new Date(2009, 0, 1), endDate : new Date(2014, 11, 1),
+            //itemId: 'Schedule.ResourceSchedule',
+            flex: 1,
+            hidden:false
+        },
+        {
+            
+//            xtype:'Component',
+//            html:'Sample html',
+            tpl: new Ext.XTemplate( 'name: {first} <tpl if="true"> <div style="display:{display}">{last} </div> </tpl>',
+                {
+                    isCompleted: function(){ debugger; return true},
+                }
+            ),
+            
+//            tpl: 'name: {first} <tpl if="this.isCompleted()" > <div style="display:{display}>{last} </div></tpl>', {
+//                     isCompleted: function () {
+//                         return true,
+//                    }
+//                },
+            data: {
+            first: 'hello',
+            last: 'world',
+            display:'initial'
+            },
+            
+            padding: 20,
+            hidden: true,
+        },
+        
+
+    ],
+    
 });

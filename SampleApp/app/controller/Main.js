@@ -1,7 +1,8 @@
 Ext.define('SampleApp.controller.Main', {
     extend: 'Ext.app.Controller',
     stores: ['SampleApp.store.WeatherPointStore',
-        'SampleApp.store.WellListStore'],
+        'SampleApp.store.WellListStore',
+        'SampleApp.store.GanttChartStore'],
     refs: [
         {
             ref: 'exampleImage',
@@ -46,6 +47,10 @@ Ext.define('SampleApp.controller.Main', {
         {
             ref:'testPanel',
             selector:'[xtype=app-main] panel[itemId=testPanel]'
+        },
+        {
+            ref:'ganttChard',
+            selector:'[xtype=app-main] container[itemId=gandChart]'
         }
     ],
     init: function () {

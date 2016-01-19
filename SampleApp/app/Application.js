@@ -1,3 +1,7 @@
+Ext.require(['Sch.model.Resource',
+    'Sch.plugin.*',]);
+
+
 Ext.define('SampleApp.Application', {
     name: 'SampleApp',
 
@@ -5,10 +9,17 @@ Ext.define('SampleApp.Application', {
 
     views: [
         // TODO: add views here
+//        'SampleApp.view.Schedule.Settings',
+//        'SampleApp.view.Schedule.ResourceSchedule',
+//        'SampleApp.view.Schedule.Navigation'
     ],
 
     controllers: [
-        'Main'
+        'Main',
+        'EmployeeList',
+//        'Navigation',
+//        'Layout',
+        'Scheduler'
         // TODO: add controllers here
     ],
 
