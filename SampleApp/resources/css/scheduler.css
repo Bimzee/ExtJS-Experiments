@@ -1,0 +1,81 @@
+.sch-schedulerpanel .x-grid-row .user .x-grid-cell-inner {
+    padding-left:25px;
+
+    background: transparent url(../images/user.png) no-repeat 2px 4px;
+}
+
+.sch-schedulerpanel .x-grid-row .x-grid-cell-inner {
+    line-height: 25px;
+    height:25px;
+}
+
+.sch-event
+{
+    /*border:1px solid red;*/
+    color: #FFF;
+    text-shadow: rgba(0,0,0,.2) 0 -1px 0;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    background-color:Coral;
+    cursor: pointer;
+}
+
+.sch-event .sch-event-inner
+{
+    background:url(../images/users.png) no-repeat left center;
+    line-height: 1em;
+    white-space:nowrap;
+    padding-left:25px;
+    margin:0 3px 0 3px;
+}
+
+.sch-event-header
+{
+	overflow:hidden;
+    font-size:0.9em;
+}
+
+.sch-event-footer
+{
+    padding-top:1px;
+}
+.sch-event-planned
+{
+    background: #F6A923;
+    padding-top:1px;
+}
+.sch-event-actual
+{
+    background: #0000EE;
+    padding-top:1px;
+}
+div.sch-event:hover 
+{
+    -webkit-box-shadow: 1px 1px 1px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 1px 1px 1px rgba(100, 100, 100, 0.5); 
+    border-color:#666;
+}
+
+.icon-add
+{
+    background: url(../images/add.png) no-repeat left center !important;
+}
+
+.icon-delete
+{
+	cursor:pointer;
+	height:24px;
+	width:24px;
+    background: url(../images/delete.png) no-repeat center center;
+}
+
+.icon-delete:hover
+{
+	background-color:whitesmoke;
+}
+
+.sch-dragcreator-proxy .sch-event-inner
+{
+    height : 25px;
+}
+

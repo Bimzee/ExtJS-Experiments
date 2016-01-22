@@ -1,0 +1,35 @@
+/*
+
+Ext Scheduler 2.5.10
+Copyright(c) 2009-2015 Bryntum AB
+http://bryntum.com/contact
+http://bryntum.com/license
+
+*/
+/* Hide title in the scheduler section */
+.sch-schedulerview .x-grid-group-title {
+    visibility : hidden;
+}
+
+.sch-grid-group-hd {
+    background : none;
+    padding    : 0;
+    height     : 29px;
+    overflow   : hidden;
+}
+
+.sch-grid-group-hd-cell {
+    float        : left;
+    height       : 27px;
+    line-height  : 27px;
+    text-align   : center;
+}
+
+.sch-grid-group-custom-header div.x-grid-group-hd {
+	padding    : 0 !important;
+	background : none;
+	/* http://www.mikepadgett.com/technology/technical/alternative-to-the-pie-clearfix-hack/ */
+	height     : 1%;
+	overflow   : hidden;
+}
+

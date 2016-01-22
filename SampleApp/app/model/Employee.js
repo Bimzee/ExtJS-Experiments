@@ -9,7 +9,7 @@ Ext.define('SampleApp.model.Employee', {
 
 //{name: 'preReq_id',type:'int'},
         {name: 'preReq_name', type: 'string', convert: function(values){
-                debugger;
+                //debugger;
         }}
         
     ],

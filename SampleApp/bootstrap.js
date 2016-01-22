@@ -8,7 +8,10 @@ Ext.Loader.addClassPathMappings({
   "Ext": "ext/src",
   "Ext.Msg": "ext/src/window/MessageBox.js",
   "Ext.rtl.EventObjectImpl": "ext/src/rtl/EventObject.js",
-  "SampleApp": "app"
+  "Gnt": "lib/Gnt",
+  "Gnt.model.AssignmentEditing": "lib/Gnt/widget/AssignmentGrid.js",
+  "SampleApp": "app",
+  "Sch": "lib/Sch"
 });
 Ext.ClassManager.addNameAlternateMappings({
   "Ext.AbstractComponent": [],
@@ -412,6 +415,7 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "Ext.grid.RowEditor": [],
   "Ext.grid.RowEditorButtons": [],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [],
   "Ext.grid.ViewDropZone": [],
   "Ext.grid.column.Action": [
@@ -827,10 +831,271 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.window.Window": [
     "Ext.Window"
   ],
+  "Gnt.Tooltip": [],
+  "Gnt.column.AddNew": [],
+  "Gnt.column.AssignmentUnits": [],
+  "Gnt.column.BaselineEndDate": [],
+  "Gnt.column.BaselineStartDate": [],
+  "Gnt.column.Calendar": [],
+  "Gnt.column.Dependency": [],
+  "Gnt.column.Duration": [],
+  "Gnt.column.EarlyEndDate": [],
+  "Gnt.column.EarlyStartDate": [],
+  "Gnt.column.Effort": [],
+  "Gnt.column.EndDate": [],
+  "Gnt.column.LateEndDate": [],
+  "Gnt.column.LateStartDate": [],
+  "Gnt.column.Milestone": [],
+  "Gnt.column.Name": [],
+  "Gnt.column.Note": [],
+  "Gnt.column.PercentDone": [],
+  "Gnt.column.Predecessor": [],
+  "Gnt.column.ResourceAssignment": [],
+  "Gnt.column.ResourceName": [],
+  "Gnt.column.Rollup": [],
+  "Gnt.column.Scale": [],
+  "Gnt.column.SchedulingMode": [],
+  "Gnt.column.Sequence": [],
+  "Gnt.column.Slack": [],
+  "Gnt.column.StartDate": [],
+  "Gnt.column.Successor": [],
+  "Gnt.column.WBS": [],
+  "Gnt.data.AssignmentStore": [],
+  "Gnt.data.Calendar": [],
+  "Gnt.data.DependencyStore": [],
+  "Gnt.data.ResourceStore": [],
+  "Gnt.data.TaskStore": [],
+  "Gnt.data.calendar.BusinessTime": [],
+  "Gnt.feature.DependencyDragDrop": [],
+  "Gnt.feature.DependencyDragZone": [],
+  "Gnt.feature.DependencyDropZone": [],
+  "Gnt.feature.DragCreator": [],
+  "Gnt.feature.LabelEditor": [],
+  "Gnt.feature.ProgressBarResize": [],
+  "Gnt.feature.TaskDragDrop": [],
+  "Gnt.feature.TaskResize": [],
+  "Gnt.feature.WorkingTime": [],
+  "Gnt.field.Assignment": [
+    "Gnt.widget.AssignmentField"
+  ],
+  "Gnt.field.Background": [],
+  "Gnt.field.Calendar": [
+    "Gnt.column.calendar.Field"
+  ],
+  "Gnt.field.Dependency": [
+    "Gnt.widget.DependencyField"
+  ],
+  "Gnt.field.Duration": [
+    "Gnt.column.duration.Field",
+    "Gnt.widget.DurationField"
+  ],
+  "Gnt.field.Effort": [
+    "Gnt.column.effort.Field",
+    "Gnt.widget.EffortField"
+  ],
+  "Gnt.field.EndDate": [],
+  "Gnt.field.Milestone": [],
+  "Gnt.field.Percent": [
+    "Gnt.widget.PercentField"
+  ],
+  "Gnt.field.SchedulingMode": [
+    "Gnt.column.schedulingmode.Field"
+  ],
+  "Gnt.field.StartDate": [],
+  "Gnt.field.mixin.TaskField": [],
+  "Gnt.locale.De": [],
+  "Gnt.locale.En": [],
+  "Gnt.locale.It": [],
+  "Gnt.locale.Nl": [],
+  "Gnt.locale.Pl": [],
+  "Gnt.locale.RuRU": [],
+  "Gnt.locale.SvSE": [],
+  "Gnt.mixin.Localizable": [],
+  "Gnt.model.Assignment": [],
+  "Gnt.model.AssignmentEditing": [],
+  "Gnt.model.Calendar": [],
+  "Gnt.model.CalendarDay": [],
+  "Gnt.model.Dependency": [],
+  "Gnt.model.Resource": [],
+  "Gnt.model.Task": [],
+  "Gnt.model.task.More": [],
+  "Gnt.panel.Gantt": [
+    "Sch.gantt.GanttPanel"
+  ],
+  "Gnt.panel.ResourceHistogram": [],
+  "Gnt.patches.IETreeStore": [],
+  "Gnt.patches.Tree": [],
+  "Gnt.plugin.DependencyEditor": [],
+  "Gnt.plugin.Export": [
+    "Gnt.plugin.PdfExport"
+  ],
+  "Gnt.plugin.Printable": [],
+  "Gnt.plugin.TaskContextMenu": [],
+  "Gnt.plugin.TaskEditor": [],
+  "Gnt.template.Milestone": [],
+  "Gnt.template.ParentTask": [],
+  "Gnt.template.RollupTask": [],
+  "Gnt.template.Task": [],
+  "Gnt.template.Template": [],
+  "Gnt.util.Data": [],
+  "Gnt.util.DependencyParser": [],
+  "Gnt.util.DurationParser": [],
+  "Gnt.view.Dependency": [],
+  "Gnt.view.DependencyPainter": [],
+  "Gnt.view.Gantt": [],
+  "Gnt.view.ResourceHistogram": [],
+  "Gnt.widget.AssignmentEditGrid": [],
+  "Gnt.widget.AssignmentGrid": [],
+  "Gnt.widget.BackgroundPicker": [],
+  "Gnt.widget.Calendar": [],
+  "Gnt.widget.DependencyGrid": [],
+  "Gnt.widget.calendar.AvailabilityGrid": [],
+  "Gnt.widget.calendar.Calendar": [],
+  "Gnt.widget.calendar.CalendarWindow": [],
+  "Gnt.widget.calendar.DatePicker": [],
+  "Gnt.widget.calendar.DayEditor": [],
+  "Gnt.widget.calendar.ResourceCalendarGrid": [],
+  "Gnt.widget.calendar.WeekEditor": [],
+  "Gnt.widget.taskeditor.TaskEditor": [
+    "Gnt.widget.TaskEditor"
+  ],
+  "Gnt.widget.taskeditor.TaskForm": [
+    "Gnt.widget.TaskForm"
+  ],
   "SampleApp.Application": [],
   "SampleApp.controller.Main": [],
+  "SampleApp.controller.Navigation": [],
+  "SampleApp.controller.Settings": [],
+  "SampleApp.model.Gantt": [],
+  "SampleApp.model.Resource": [],
+  "SampleApp.model.WeatherPoint": [],
+  "SampleApp.model.WellList": [],
+  "SampleApp.store.GanttChartStore": [],
+  "SampleApp.store.TaskStore": [],
+  "SampleApp.store.WeatherPointStore": [],
+  "SampleApp.store.WellListStore": [],
+  "SampleApp.view.AFETChart": [],
+  "SampleApp.view.AFETGrid": [],
+  "SampleApp.view.Accordion.AccordionPanel1": [],
+  "SampleApp.view.Accordion.AccordionPanel2": [],
+  "SampleApp.view.GridWellList": [],
   "SampleApp.view.Main": [],
-  "SampleApp.view.Viewport": []
+  "SampleApp.view.Schedule.Navigation": [],
+  "SampleApp.view.Schedule.ResourceSchedule": [],
+  "SampleApp.view.Schedule.Settings": [],
+  "SampleApp.view.Viewport": [],
+  "Sch.column.Day": [],
+  "Sch.column.Resource": [],
+  "Sch.column.Summary": [
+    "Sch.plugin.SummaryColumn"
+  ],
+  "Sch.column.timeAxis.Horizontal": [],
+  "Sch.column.timeAxis.Vertical": [],
+  "Sch.crud.AbstractManager": [],
+  "Sch.crud.encoder.Json": [],
+  "Sch.crud.encoder.Xml": [],
+  "Sch.crud.transport.Ajax": [],
+  "Sch.data.CrudManager": [],
+  "Sch.data.EventStore": [],
+  "Sch.data.FilterableNodeStore": [],
+  "Sch.data.ResourceStore": [],
+  "Sch.data.ResourceTreeStore": [],
+  "Sch.data.TimeAxis": [],
+  "Sch.data.mixin.EventStore": [],
+  "Sch.data.mixin.FilterableTreeStore": [],
+  "Sch.data.mixin.ResourceStore": [],
+  "Sch.eventlayout.Horizontal": [],
+  "Sch.eventlayout.Table": [],
+  "Sch.eventlayout.Vertical": [],
+  "Sch.feature.AbstractTimeSpan": [],
+  "Sch.feature.ColumnLines": [],
+  "Sch.feature.DragCreator": [],
+  "Sch.feature.DragDrop": [],
+  "Sch.feature.Grouping": [],
+  "Sch.feature.ResizeZone": [],
+  "Sch.feature.SchedulerDragZone": [],
+  "Sch.field.CellEditor": [],
+  "Sch.locale.De": [],
+  "Sch.locale.En": [],
+  "Sch.locale.It": [],
+  "Sch.locale.Locale": [],
+  "Sch.locale.Nl": [],
+  "Sch.locale.Pl": [],
+  "Sch.locale.RuRU": [],
+  "Sch.locale.SvSE": [],
+  "Sch.mixin.AbstractSchedulerPanel": [],
+  "Sch.mixin.AbstractSchedulerView": [],
+  "Sch.mixin.AbstractTimelinePanel": [],
+  "Sch.mixin.AbstractTimelineView": [],
+  "Sch.mixin.FilterableTreeView": [],
+  "Sch.mixin.Localizable": [],
+  "Sch.mixin.Lockable": [],
+  "Sch.mixin.SchedulerPanel": [],
+  "Sch.mixin.SchedulerView": [],
+  "Sch.mixin.TimelinePanel": [],
+  "Sch.mixin.TimelineView": [],
+  "Sch.mixin.Zoomable": [],
+  "Sch.model.Customizable": [],
+  "Sch.model.Event": [],
+  "Sch.model.Range": [],
+  "Sch.model.Resource": [],
+  "Sch.model.TimeAxisTick": [],
+  "Sch.panel.SchedulerGrid": [
+    "Sch.SchedulerPanel"
+  ],
+  "Sch.panel.SchedulerTree": [],
+  "Sch.panel.TimelineGridPanel": [],
+  "Sch.panel.TimelineTreePanel": [],
+  "Sch.patches.ColumnResize": [],
+  "Sch.patches.ColumnResizeTree": [],
+  "Sch.patches.ElementScroll": [],
+  "Sch.plugin.CellPlugin": [],
+  "Sch.plugin.CurrentTimeLine": [],
+  "Sch.plugin.DragSelector": [],
+  "Sch.plugin.EventEditor": [],
+  "Sch.plugin.EventTools": [],
+  "Sch.plugin.ExcelExport": [],
+  "Sch.plugin.Export": [
+    "Sch.plugin.PdfExport"
+  ],
+  "Sch.plugin.HeaderZoom": [],
+  "Sch.plugin.Lines": [],
+  "Sch.plugin.Pan": [],
+  "Sch.plugin.Printable": [],
+  "Sch.plugin.ResourceZones": [],
+  "Sch.plugin.SimpleEditor": [],
+  "Sch.plugin.TimeGap": [],
+  "Sch.plugin.TreeCellEditing": [],
+  "Sch.plugin.Zones": [],
+  "Sch.plugin.exporter.AbstractExporter": [],
+  "Sch.plugin.exporter.Custom": [],
+  "Sch.plugin.exporter.MultiPage": [],
+  "Sch.plugin.exporter.MultiPageVertical": [],
+  "Sch.plugin.exporter.SinglePage": [],
+  "Sch.preset.Manager": [],
+  "Sch.preset.ViewPreset": [],
+  "Sch.preset.ViewPresetHeaderRow": [],
+  "Sch.selection.EventModel": [],
+  "Sch.tooltip.ClockTemplate": [],
+  "Sch.tooltip.Tooltip": [],
+  "Sch.util.Date": [],
+  "Sch.util.Debug": [],
+  "Sch.util.DragTracker": [],
+  "Sch.util.Patch": [],
+  "Sch.util.ScrollManager": [],
+  "Sch.view.Calendar": [],
+  "Sch.view.Horizontal": [],
+  "Sch.view.HorizontalTimeAxis": [],
+  "Sch.view.SchedulerGridView": [],
+  "Sch.view.TimelineGridView": [],
+  "Sch.view.Vertical": [],
+  "Sch.view.model.TimeAxis": [],
+  "Sch.widget.ExportDialog": [
+    "Sch.widget.PdfExportDialog"
+  ],
+  "Sch.widget.ExportDialogForm": [],
+  "Sch.widget.PagingToolbar": [],
+  "Sch.widget.ResizePicker": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1268,6 +1533,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.grid.RowEditorButtons": [
     "widget.roweditorbuttons"
   ],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [
     "widget.gridview"
   ],
@@ -1817,12 +2083,447 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.window.Window": [
     "widget.window"
   ],
+  "Gnt.Tooltip": [
+    "widget.gantt_task_tooltip"
+  ],
+  "Gnt.column.AddNew": [
+    "widget.addnewcolumn"
+  ],
+  "Gnt.column.AssignmentUnits": [
+    "widget.assignmentunitscolumn"
+  ],
+  "Gnt.column.BaselineEndDate": [
+    "widget.baselineenddatecolumn"
+  ],
+  "Gnt.column.BaselineStartDate": [
+    "widget.baselinestartdatecolumn"
+  ],
+  "Gnt.column.Calendar": [
+    "widget.calendarcolumn"
+  ],
+  "Gnt.column.Dependency": [],
+  "Gnt.column.Duration": [
+    "widget.durationcolumn"
+  ],
+  "Gnt.column.EarlyEndDate": [
+    "widget.earlyenddatecolumn"
+  ],
+  "Gnt.column.EarlyStartDate": [
+    "widget.earlystartdatecolumn"
+  ],
+  "Gnt.column.Effort": [
+    "widget.effortcolumn"
+  ],
+  "Gnt.column.EndDate": [
+    "widget.enddatecolumn"
+  ],
+  "Gnt.column.LateEndDate": [
+    "widget.lateenddatecolumn"
+  ],
+  "Gnt.column.LateStartDate": [
+    "widget.latestartdatecolumn"
+  ],
+  "Gnt.column.Milestone": [
+    "widget.milestonecolumn"
+  ],
+  "Gnt.column.Name": [
+    "widget.namecolumn"
+  ],
+  "Gnt.column.Note": [
+    "widget.notecolumn"
+  ],
+  "Gnt.column.PercentDone": [
+    "widget.percentdonecolumn"
+  ],
+  "Gnt.column.Predecessor": [
+    "widget.predecessorcolumn"
+  ],
+  "Gnt.column.ResourceAssignment": [
+    "widget.resourceassignmentcolumn"
+  ],
+  "Gnt.column.ResourceName": [
+    "widget.resourcenamecolumn"
+  ],
+  "Gnt.column.Rollup": [
+    "widget.rollupcolumn"
+  ],
+  "Gnt.column.Scale": [
+    "widget.scalecolumn"
+  ],
+  "Gnt.column.SchedulingMode": [
+    "widget.schedulingmodecolumn"
+  ],
+  "Gnt.column.Sequence": [
+    "widget.sequencecolumn"
+  ],
+  "Gnt.column.Slack": [
+    "widget.slackcolumn"
+  ],
+  "Gnt.column.StartDate": [
+    "widget.startdatecolumn"
+  ],
+  "Gnt.column.Successor": [
+    "widget.successorcolumn"
+  ],
+  "Gnt.column.WBS": [
+    "widget.wbscolumn"
+  ],
+  "Gnt.data.AssignmentStore": [],
+  "Gnt.data.Calendar": [],
+  "Gnt.data.DependencyStore": [],
+  "Gnt.data.ResourceStore": [],
+  "Gnt.data.TaskStore": [],
+  "Gnt.data.calendar.BusinessTime": [],
+  "Gnt.feature.DependencyDragDrop": [],
+  "Gnt.feature.DependencyDragZone": [],
+  "Gnt.feature.DependencyDropZone": [],
+  "Gnt.feature.DragCreator": [],
+  "Gnt.feature.LabelEditor": [],
+  "Gnt.feature.ProgressBarResize": [],
+  "Gnt.feature.TaskDragDrop": [],
+  "Gnt.feature.TaskResize": [],
+  "Gnt.feature.WorkingTime": [],
+  "Gnt.field.Assignment": [
+    "widget.assignmenteditor",
+    "widget.assignmentfield"
+  ],
+  "Gnt.field.Background": [
+    "widget.backgroundfield"
+  ],
+  "Gnt.field.Calendar": [
+    "widget.calendarfield"
+  ],
+  "Gnt.field.Dependency": [
+    "widget.dependencyfield"
+  ],
+  "Gnt.field.Duration": [
+    "widget.durationfield"
+  ],
+  "Gnt.field.Effort": [
+    "widget.effortfield"
+  ],
+  "Gnt.field.EndDate": [
+    "widget.enddatefield"
+  ],
+  "Gnt.field.Milestone": [
+    "widget.milestonefield"
+  ],
+  "Gnt.field.Percent": [
+    "widget.percentfield"
+  ],
+  "Gnt.field.SchedulingMode": [
+    "widget.schedulingmodefield"
+  ],
+  "Gnt.field.StartDate": [
+    "widget.startdatefield"
+  ],
+  "Gnt.field.mixin.TaskField": [],
+  "Gnt.locale.De": [],
+  "Gnt.locale.En": [],
+  "Gnt.locale.It": [],
+  "Gnt.locale.Nl": [],
+  "Gnt.locale.Pl": [],
+  "Gnt.locale.RuRU": [],
+  "Gnt.locale.SvSE": [],
+  "Gnt.mixin.Localizable": [],
+  "Gnt.model.Assignment": [],
+  "Gnt.model.AssignmentEditing": [],
+  "Gnt.model.Calendar": [],
+  "Gnt.model.CalendarDay": [],
+  "Gnt.model.Dependency": [],
+  "Gnt.model.Resource": [],
+  "Gnt.model.Task": [],
+  "Gnt.model.task.More": [],
+  "Gnt.panel.Gantt": [
+    "widget.ganttpanel"
+  ],
+  "Gnt.panel.ResourceHistogram": [
+    "widget.resourcehistogram"
+  ],
+  "Gnt.patches.IETreeStore": [],
+  "Gnt.patches.Tree": [],
+  "Gnt.plugin.DependencyEditor": [
+    "plugin.gantt_dependencyeditor"
+  ],
+  "Gnt.plugin.Export": [
+    "plugin.gantt_export"
+  ],
+  "Gnt.plugin.Printable": [
+    "plugin.gantt_printable"
+  ],
+  "Gnt.plugin.TaskContextMenu": [
+    "plugin.gantt_taskcontextmenu"
+  ],
+  "Gnt.plugin.TaskEditor": [
+    "plugin.gantt_taskeditor"
+  ],
+  "Gnt.template.Milestone": [],
+  "Gnt.template.ParentTask": [],
+  "Gnt.template.RollupTask": [],
+  "Gnt.template.Task": [],
+  "Gnt.template.Template": [],
+  "Gnt.util.Data": [],
+  "Gnt.util.DependencyParser": [],
+  "Gnt.util.DurationParser": [],
+  "Gnt.view.Dependency": [],
+  "Gnt.view.DependencyPainter": [],
+  "Gnt.view.Gantt": [
+    "widget.ganttview"
+  ],
+  "Gnt.view.ResourceHistogram": [
+    "widget.resourcehistogramview"
+  ],
+  "Gnt.widget.AssignmentEditGrid": [
+    "widget.assignmenteditgrid"
+  ],
+  "Gnt.widget.AssignmentGrid": [
+    "widget.assignmentgrid"
+  ],
+  "Gnt.widget.BackgroundPicker": [
+    "widget.backgroundpicker"
+  ],
+  "Gnt.widget.Calendar": [
+    "widget.ganttcalendar"
+  ],
+  "Gnt.widget.DependencyGrid": [
+    "widget.dependencygrid"
+  ],
+  "Gnt.widget.calendar.AvailabilityGrid": [
+    "widget.calendaravailabilitygrid"
+  ],
+  "Gnt.widget.calendar.Calendar": [
+    "widget.calendar"
+  ],
+  "Gnt.widget.calendar.CalendarWindow": [
+    "widget.calendarwindow"
+  ],
+  "Gnt.widget.calendar.DatePicker": [
+    "widget.gntdatepicker"
+  ],
+  "Gnt.widget.calendar.DayEditor": [
+    "widget.calendardayeditor"
+  ],
+  "Gnt.widget.calendar.ResourceCalendarGrid": [
+    "widget.resourcecalendargrid"
+  ],
+  "Gnt.widget.calendar.WeekEditor": [
+    "widget.calendarweekeditor"
+  ],
+  "Gnt.widget.taskeditor.TaskEditor": [
+    "widget.taskeditor"
+  ],
+  "Gnt.widget.taskeditor.TaskForm": [
+    "widget.taskform"
+  ],
   "SampleApp.Application": [],
   "SampleApp.controller.Main": [],
+  "SampleApp.controller.Navigation": [],
+  "SampleApp.controller.Settings": [],
+  "SampleApp.model.Gantt": [],
+  "SampleApp.model.Resource": [],
+  "SampleApp.model.WeatherPoint": [],
+  "SampleApp.model.WellList": [],
+  "SampleApp.store.GanttChartStore": [],
+  "SampleApp.store.TaskStore": [],
+  "SampleApp.store.WeatherPointStore": [],
+  "SampleApp.store.WellListStore": [],
+  "SampleApp.view.AFETChart": [
+    "widget.chartAFE"
+  ],
+  "SampleApp.view.AFETGrid": [
+    "widget.AFETGrid"
+  ],
+  "SampleApp.view.Accordion.AccordionPanel1": [
+    "widget.pnlAccordion1"
+  ],
+  "SampleApp.view.Accordion.AccordionPanel2": [
+    "widget.pnlAccordion2"
+  ],
+  "SampleApp.view.GridWellList": [
+    "widget.gridWellList"
+  ],
   "SampleApp.view.Main": [
     "widget.app-main"
   ],
-  "SampleApp.view.Viewport": []
+  "SampleApp.view.Schedule.Navigation": [
+    "widget.navigation"
+  ],
+  "SampleApp.view.Schedule.ResourceSchedule": [
+    "widget.resourceschedule"
+  ],
+  "SampleApp.view.Schedule.Settings": [
+    "widget.settings"
+  ],
+  "SampleApp.view.Viewport": [],
+  "Sch.column.Day": [
+    "widget.weekview-day"
+  ],
+  "Sch.column.Resource": [
+    "widget.resourcecolumn"
+  ],
+  "Sch.column.Summary": [
+    "plugin.scheduler_summarycolumn",
+    "widget.summarycolumn"
+  ],
+  "Sch.column.timeAxis.Horizontal": [
+    "widget.timeaxiscolumn"
+  ],
+  "Sch.column.timeAxis.Vertical": [
+    "widget.verticaltimeaxis"
+  ],
+  "Sch.crud.AbstractManager": [],
+  "Sch.crud.encoder.Json": [],
+  "Sch.crud.encoder.Xml": [],
+  "Sch.crud.transport.Ajax": [],
+  "Sch.data.CrudManager": [],
+  "Sch.data.EventStore": [
+    "store.eventstore"
+  ],
+  "Sch.data.FilterableNodeStore": [],
+  "Sch.data.ResourceStore": [
+    "store.resourcestore"
+  ],
+  "Sch.data.ResourceTreeStore": [
+    "store.resourcetreestore"
+  ],
+  "Sch.data.TimeAxis": [],
+  "Sch.data.mixin.EventStore": [],
+  "Sch.data.mixin.FilterableTreeStore": [],
+  "Sch.data.mixin.ResourceStore": [],
+  "Sch.eventlayout.Horizontal": [],
+  "Sch.eventlayout.Table": [],
+  "Sch.eventlayout.Vertical": [],
+  "Sch.feature.AbstractTimeSpan": [],
+  "Sch.feature.ColumnLines": [],
+  "Sch.feature.DragCreator": [],
+  "Sch.feature.DragDrop": [],
+  "Sch.feature.Grouping": [
+    "feature.scheduler_grouping"
+  ],
+  "Sch.feature.ResizeZone": [],
+  "Sch.feature.SchedulerDragZone": [],
+  "Sch.field.CellEditor": [],
+  "Sch.locale.De": [],
+  "Sch.locale.En": [],
+  "Sch.locale.It": [],
+  "Sch.locale.Locale": [],
+  "Sch.locale.Nl": [],
+  "Sch.locale.Pl": [],
+  "Sch.locale.RuRU": [],
+  "Sch.locale.SvSE": [],
+  "Sch.mixin.AbstractSchedulerPanel": [],
+  "Sch.mixin.AbstractSchedulerView": [],
+  "Sch.mixin.AbstractTimelinePanel": [],
+  "Sch.mixin.AbstractTimelineView": [],
+  "Sch.mixin.FilterableTreeView": [],
+  "Sch.mixin.Localizable": [],
+  "Sch.mixin.Lockable": [],
+  "Sch.mixin.SchedulerPanel": [],
+  "Sch.mixin.SchedulerView": [],
+  "Sch.mixin.TimelinePanel": [],
+  "Sch.mixin.TimelineView": [],
+  "Sch.mixin.Zoomable": [],
+  "Sch.model.Customizable": [],
+  "Sch.model.Event": [],
+  "Sch.model.Range": [],
+  "Sch.model.Resource": [],
+  "Sch.model.TimeAxisTick": [],
+  "Sch.panel.SchedulerGrid": [
+    "widget.schedulergrid",
+    "widget.schedulerpanel"
+  ],
+  "Sch.panel.SchedulerTree": [
+    "widget.schedulertree"
+  ],
+  "Sch.panel.TimelineGridPanel": [],
+  "Sch.panel.TimelineTreePanel": [],
+  "Sch.patches.ColumnResize": [],
+  "Sch.patches.ColumnResizeTree": [],
+  "Sch.patches.ElementScroll": [],
+  "Sch.plugin.CellPlugin": [
+    "plugin.scheduler_cellplugin"
+  ],
+  "Sch.plugin.CurrentTimeLine": [
+    "plugin.scheduler_currenttimeline"
+  ],
+  "Sch.plugin.DragSelector": [
+    "plugin.scheduler_dragselector"
+  ],
+  "Sch.plugin.EventEditor": [
+    "plugin.scheduler_eventeditor",
+    "widget.eventeditor"
+  ],
+  "Sch.plugin.EventTools": [
+    "plugin.scheduler_eventtools"
+  ],
+  "Sch.plugin.ExcelExport": [],
+  "Sch.plugin.Export": [
+    "plugin.scheduler_export"
+  ],
+  "Sch.plugin.HeaderZoom": [
+    "plugin.scheduler_headerzoom"
+  ],
+  "Sch.plugin.Lines": [
+    "plugin.scheduler_lines"
+  ],
+  "Sch.plugin.Pan": [
+    "plugin.scheduler_pan"
+  ],
+  "Sch.plugin.Printable": [
+    "plugin.scheduler_printable"
+  ],
+  "Sch.plugin.ResourceZones": [
+    "plugin.scheduler_resourcezones"
+  ],
+  "Sch.plugin.SimpleEditor": [
+    "plugin.scheduler_simpleeditor"
+  ],
+  "Sch.plugin.TimeGap": [
+    "plugin.scheduler_timegap"
+  ],
+  "Sch.plugin.TreeCellEditing": [
+    "plugin.scheduler_treecellediting"
+  ],
+  "Sch.plugin.Zones": [
+    "plugin.scheduler_zones"
+  ],
+  "Sch.plugin.exporter.AbstractExporter": [],
+  "Sch.plugin.exporter.Custom": [],
+  "Sch.plugin.exporter.MultiPage": [],
+  "Sch.plugin.exporter.MultiPageVertical": [],
+  "Sch.plugin.exporter.SinglePage": [],
+  "Sch.preset.Manager": [],
+  "Sch.preset.ViewPreset": [],
+  "Sch.preset.ViewPresetHeaderRow": [],
+  "Sch.selection.EventModel": [
+    "selection.eventmodel"
+  ],
+  "Sch.tooltip.ClockTemplate": [],
+  "Sch.tooltip.Tooltip": [],
+  "Sch.util.Date": [],
+  "Sch.util.Debug": [],
+  "Sch.util.DragTracker": [],
+  "Sch.util.Patch": [],
+  "Sch.util.ScrollManager": [],
+  "Sch.view.Calendar": [],
+  "Sch.view.Horizontal": [],
+  "Sch.view.HorizontalTimeAxis": [],
+  "Sch.view.SchedulerGridView": [
+    "widget.schedulergridview"
+  ],
+  "Sch.view.TimelineGridView": [],
+  "Sch.view.Vertical": [],
+  "Sch.view.model.TimeAxis": [],
+  "Sch.widget.ExportDialog": [
+    "widget.exportdialog"
+  ],
+  "Sch.widget.ExportDialogForm": [],
+  "Sch.widget.PagingToolbar": [
+    "widget.sch_pagingtoolbar"
+  ],
+  "Sch.widget.ResizePicker": [
+    "widget.dualrangepicker"
+  ]
 });
 Ext.setVersion("ext-theme-base", "4.2.1");
 Ext.setVersion("ext-theme-classic", "4.2.1");

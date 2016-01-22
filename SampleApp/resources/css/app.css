@@ -1,0 +1,25 @@
+#app-header {
+    font-family: Arial, sans-serif;
+    color: #596F8F;
+    font-size: 22px;
+    font-weight: 200;
+    padding-left: 15px;
+    text-shadow: 0 1px 0 #fff;
+    line-height:50px;
+}
+#app-header .subtitle {
+    font-size: 14px;
+    color: #369;
+}
+
+.checkbox-labels{
+    margin-left: 10px;
+}
+
+.x-fieldset-header-text{
+    margin: 0 3px;
+}
+
+.dirtyfield {
+    background-color: #ff0;
+}

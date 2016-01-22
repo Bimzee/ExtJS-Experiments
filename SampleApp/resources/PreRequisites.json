@@ -1,0 +1,434 @@
+[
+    {
+        "preReq_id": "01",
+        "preReq_name": "Proposed",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": "",
+        "fields": [
+            {
+                "tile_id": "drilling",
+                "field_id": "087",
+                "owner": "Katherine Parker"
+            },
+            {
+                "tile_id": "drilling",
+                "field_id": "090",
+                "owner": "Katherine Parker"
+            },
+            {
+                "tile_id": "geology",
+                "field_id": "051",
+                "owner": "Donna Smith"
+            },
+            {
+                "tile_id": "geology",
+                "field_id": "052",
+                "owner": "Donna Smith"
+            },
+            {
+                "tile_id": "resourceDevelopment",
+                "field_id": "050",
+                "owner": "James Matthews"
+            },
+            {
+                "tile_id": "resourceDevelopment",
+                "field_id": "005",
+                "owner": "James Matthews"
+            }
+
+        ]
+    },
+    {
+        "preReq_id": "02",
+        "preReq_name": "Scheduled",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": "",
+        "fields": [
+            {
+                "tile_id": "land",
+                "field_id": "117",
+                "owner": "Jacqueline Weaver"
+            },            
+            {
+                "tile_id": "land",
+                "field_id": "119",
+                "owner": "Jacqueline Weaver"
+            },
+            {
+                "tile_id": "resourceDevelopment",
+                "field_id": "017",
+                "owner": "James Matthews"
+            },
+            {
+                "tile_id": "resourceDevelopment",
+                "field_id": "009",
+                "owner": "James Matthews"
+            }
+        ]
+    },
+    {
+        "preReq_id": "03",
+        "preReq_name": "Staking",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 6,
+        "fields": [
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "121",
+                "owner": "Martha Reed"
+            },
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "122",
+                "owner": "Martha Reed"
+            }
+        ]
+    },
+    {
+        "preReq_id": "04",
+        "preReq_name": "Plats Received",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 4,
+        "fields": [
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "067",
+                "owner": "Martha Reed"
+            },
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "068",
+                "owner": "Martha Reed"
+            },
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "069",
+                "owner": "Martha Reed"
+            }
+        ]
+    },
+    {
+        "preReq_id": "05",
+        "preReq_name": "Plats Approved",
+        "preReq_description": "",
+        "preReq_duration": 7,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": -1,
+        "fields": [
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "073",
+                "owner": "Martha Reed"
+            },
+            {
+                "tile_id": "geology",
+                "field_id": "055",
+                "owner": "Carlos Welch"
+            }
+        ]
+    },
+    {
+        "preReq_id": "06",
+        "preReq_name": "Review and Approval",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 12,
+        "fields": [
+            {
+                "tile_id": "geology",
+                "field_id": "060",
+                "owner": "Donna Smith"
+            },
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "074",
+                "owner": "Martha Reed"
+            },
+            {
+                "tile_id": "resourceDevelopment",
+                "field_id": "018",
+                "owner": "James Matthews"
+            },
+            {
+                "tile_id": "land",
+                "field_id": "045",
+                "owner": "Jacqueline Weaver"
+            },
+            {
+                "tile_id": "drilling",
+                "field_id": "093",
+                "owner": "Katherine Parker"
+            },{
+                "tile_id": "production",
+                "field_id": "152",
+                "owner": "Gloria Nicholas"
+            }
+        ]
+    },
+    {
+        "preReq_id": "07",
+        "preReq_name": "Permitting",
+        "preReq_description": "",
+        "preReq_duration": 60,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "077",
+                "owner": "Martha Reed"
+            }, {
+                "tile_id": "projectDevelopment",
+                "field_id": "078",
+                "owner": "Martha Reed"
+            }, {
+                "tile_id": "projectDevelopment",
+                "field_id": "079",
+                "owner": "Martha Reed"
+            }, {
+                "tile_id": "projectDevelopment",
+                "field_id": "080",
+                "owner": "Martha Reed"
+            }, {
+                "tile_id": "projectDevelopment",
+                "field_id": "081",
+                "owner": "Martha Reed"
+            }
+
+        ]
+    },
+    {
+        "preReq_id": "08",
+        "preReq_name": "Clear to Build",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "land",
+                "field_id": "046",
+                "owner": "Jacqueline Weaver"
+            },
+            {
+                "tile_id": "land",
+                "field_id": "047",
+                "owner": "Jacqueline Weaver"
+            }
+        ]
+    },
+    {
+        "preReq_id": "09",
+        "preReq_name": "Review and Approval",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "128",
+                "owner": "Martha Reed"
+            },
+            {
+                "tile_id": "land",
+                "field_id": "125",
+                "owner": "Jacqueline Weaver"
+            },
+            {
+                "tile_id": "completions",
+                "field_id": "101",
+                "owner": "Eric Stephens"
+            },{
+                "tile_id": "resourceDevelopment",
+                "field_id": "150",
+                "owner": "James Matthews"
+            },{
+                "tile_id": "geology",
+                "field_id": "151",
+                "owner": "Donna Smith"
+            }
+        ]
+    },
+    {
+        "preReq_id": "10",
+        "preReq_name": "Construction",
+        "preReq_description": "",
+        "preReq_duration": 28,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "land",
+                "field_id": "138",
+                "owner": "Beverly Mills"
+            },            
+            {
+                "tile_id": "land",
+                "field_id": "139",
+                "owner": "Beverly Mills"
+            },
+            {
+                "tile_id": "production",
+                "field_id": "140",
+                "owner": "Phillip Lane"
+            },
+            {
+                "tile_id": "production",
+                "field_id": "141",
+                "owner": "Phillip Lane"
+            }
+        ]
+    },
+    {
+        "preReq_id": "11",
+        "preReq_name": "Clear to Spud",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "projectDevelopment",
+                "field_id": "142",
+                "owner": "Martha Reed"
+            }
+        ]
+    },
+    {
+        "preReq_id": "12",
+        "preReq_name": "Review and Approval",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 2,
+        "fields": [
+            {
+                "tile_id": "land",
+                "field_id": "134",
+                "owner": "Melissa Martinez"
+            },{
+                "tile_id": "production",
+                "field_id": "111",
+                "owner": "Melissa Bishop"
+            },{
+                "tile_id": "projectDevelopment",
+                "field_id": "130",
+                "owner": "Martha Reed"
+            },{
+                "tile_id": "resourceDevelopment",
+                "field_id": "148",
+                "owner": "James Matthews"
+            },{
+                "tile_id": "geology",
+                "field_id": "149",
+                "owner": "Donna Smith"
+            }
+        ]
+    },
+    {
+        "preReq_id": "13",
+        "preReq_name": "Approved to Drill",
+        "preReq_description": "",
+        "preReq_duration": 2,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "drilling",
+                "field_id": "143",
+                "owner": "Katherine Parker"
+            }
+        ]
+    },
+    {
+        "preReq_id": "14",
+        "preReq_name": "Drilling",
+        "preReq_description": "",
+        "preReq_duration": 27,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "drilling",
+                "field_id": "096",
+                "owner": "Katherine Parker"
+            },
+            {
+                "tile_id": "drilling",
+                "field_id": "097",
+                "owner": "Katherine Parker"
+            }
+        ]
+    },
+    {
+        "preReq_id": "15",
+        "preReq_name": "Completing",
+        "preReq_description": "",
+        "preReq_duration": 23,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "completions",
+                "field_id": "102",
+                "owner": "Eric Stephens"
+            },
+            {
+                "tile_id": "completions",
+                "field_id": "103",
+                "owner": "Eric Stephens"
+            },
+            {
+                "tile_id": "completions",
+                "field_id": "104",
+                "owner": "Eric Stephens"
+            },
+            {
+                "tile_id": "completions",
+                "field_id": "105",
+                "owner": "Eric Stephens"
+            }
+        ]
+    },
+    {
+        "preReq_id": "16",
+        "preReq_name": "Production",
+        "preReq_description": "",
+        "preReq_duration": 25,
+        "startDate": "",
+        "endDate": "",
+        "remainingDays": 22,
+        "fields": [
+            {
+                "tile_id": "production",
+                "field_id": "110",
+                "owner": "Gloria Nicholas"
+            }
+        ]
+    }
+]
