@@ -51,12 +51,13 @@ Ext.define("SampleApp.view.Scheduler", {
         if (event.data.Id===30)
         {
 
-            tpl.style = 'background-color: #063AF5';
+//            tpl.style = 'background-color: #063AF5';
         }
         else
         {
-            tpl.style = 'background-color: #000';
+//            tpl.style = 'background-color: #000';
         }
+        
         var me=this;
         var view = me.getBubbleParent().getView();
 
@@ -77,7 +78,7 @@ Ext.define("SampleApp.view.Scheduler", {
         );
         tpl.cls = "";
 
-        if (event.data.isCompleted) {
+        if (event.data.isCompleted===0) {
             tpl.cls += ' sch-event-planned';
         }
         else

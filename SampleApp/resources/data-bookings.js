@@ -9,7 +9,7 @@
          "EndDate":"07-27-2014",
 		  "ActualStartDate":"07-05-2014",
 		 "ActualEndDate":"07-17-2014",
-		 "isCompleted":false
+		 "isCompleted":0
 		 
       },
 	  {
@@ -21,7 +21,7 @@
          "EndDate":"07-26-2014",
 		"ActualStartDate":"07-06-2014",
          "ActualEndDate":"07-16-2014",
-		 "isCompleted":true
+		 "isCompleted":1
       },{
          "Id":65,
          "ResourceId":106,
@@ -31,7 +31,7 @@
          "EndDate":"07-29-2014",
 		  "ActualStartDate":"07-27-2014",
 		 "ActualEndDate":"07-29-2014",
-		 "isCompleted":false
+		 "isCompleted":0
       },
 	  {
          "Id":5,
@@ -42,7 +42,7 @@
          "EndDate":"07-29-2014",
 		 "ActualStartDate":"07-26-2014",
          "ActualEndDate":"07-29-2014",
-		 "isCompleted":true
+		 "isCompleted":1
       },
 	  {
          "Id":15,
@@ -53,7 +53,7 @@
          "EndDate":"07-31-2014",		
 		 "ActualStartDate":"07-29-2014",
 		 "ActualEndDate":"07-31-2014",
-		 "isCompleted":false
+		 "isCompleted":0
       },
       {
          "Id":27,
@@ -64,7 +64,7 @@
          "EndDate":"08-11-2014",
 		 "ActualStartDate":"08-09-2014",
 		 "ActualEndDate":"08-11-2014",
-		 "isCompleted":false
+		 "isCompleted":0
       },
 	  {
          "Id":6,
@@ -75,7 +75,7 @@
          "EndDate":"08-04-2014",
 		 "ActualStartDate":"07-29-2014",
          "ActualEndDate":"08-04-2014",
-		 "isCompleted":true
+		 "isCompleted":1
       },
 	  {
          "Id":16,
@@ -86,7 +86,7 @@
          "EndDate":"07-31-2014",
 		 "ActualStartDate":"07-29-2014",
 		 "ActualEndDate":"07-31-2014",
-		 "isCompleted":false
+		 "isCompleted":0
 	  },
 	  {
          "Id":7,
@@ -97,7 +97,7 @@
          "EndDate":"08-04-2014",
 		 "ActualStartDate":"08-04-2014",
          "ActualEndDate":"08-04-2014",
-		 "isCompleted":true
+		 "isCompleted":1
       }
       
       
